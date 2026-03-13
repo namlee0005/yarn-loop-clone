@@ -75,8 +75,8 @@
 
 ## Phase 8: Observability & Backup
 
-### T-028: Sentry integration [ ]
-### T-029: Database backup cron [ ]
+### T-028.*[x]
+### T-029.*[x]
 ### T-030: Environment template [x]
 
 ---
@@ -93,4 +93,4 @@
 | 5: Patterns/Upload | [x] |
 | 6: Frontend | [x] |
 | 7: Infrastructure | [x] |
-| 8: Ops | [ ] |
+| 8: Ops.*| [x] |
