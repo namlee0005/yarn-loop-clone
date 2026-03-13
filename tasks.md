@@ -387,6 +387,6 @@ SENTRY_DSN=
 | 3: Projects/Counters | T-008.*[x] |
 | 4: Stash | T-011.*[x] |
 | 5: Patterns/Upload | T-013.*[x] |
-| 6: Frontend | T-016–T-022 | Optimistic counter rollback | [ ] |
+| 6: Frontend | T-016.*[x] |
 | 7: Infrastructure | T-023–T-027 | Secrets management | [ ] |
 | 8: Ops | T-028–T-030 | Backup reliability | [ ] |
