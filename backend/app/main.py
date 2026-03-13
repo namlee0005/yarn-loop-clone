@@ -59,5 +59,10 @@ async def trigger_error():
     _ = 1 / 0
 
 # ── Routers ───────────────────────────────────────────────────────────────────
-# from app.routers import patterns, users, projects
-# app.include_router(patterns.router, prefix="/api/v1")
+from app.routers import auth, projects, counters, patterns, stash
+
+app.include_router(auth.router, prefix="/api/v1/auth", tags=["auth"])
+app.include_router(projects.router, prefix="/api/v1/projects", tags=["projects"])
+app.include_router(counters.router, prefix="/api/v1/counters", tags=["counters"])
+app.include_router(patterns.router, prefix="/api/v1/patterns", tags=["patterns"])
+app.include_router(stash.router, prefix="/api/v1/stash", tags=["stash"])
