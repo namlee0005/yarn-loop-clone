@@ -384,7 +384,7 @@ SENTRY_DSN=
 | 0: Scaffolding | T-001 | Vite + FastAPI CORS config | [x] |
 | 1: Database | T-002–T-004 | GIN index on TSVECTOR | [x] |
 | 2: Auth | T-005–T-007 | Refresh token rotation | [x] |
-| 3: Projects/Counters | T-008–T-010 | IDOR, atomic SQL increments | [ ] |
+| 3: Projects/Counters | T-008.*[x] |
 | 4: Stash | T-011–T-012 | FTS query performance | [ ] |
 | 5: Patterns/Upload | T-013–T-015 | python-magic MIME validation | [ ] |
 | 6: Frontend | T-016–T-022 | Optimistic counter rollback | [ ] |
