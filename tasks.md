@@ -386,7 +386,7 @@ SENTRY_DSN=
 | 2: Auth | T-005–T-007 | Refresh token rotation | [x] |
 | 3: Projects/Counters | T-008.*[x] |
 | 4: Stash | T-011.*[x] |
-| 5: Patterns/Upload | T-013–T-015 | python-magic MIME validation | [ ] |
+| 5: Patterns/Upload | T-013.*[x] |
 | 6: Frontend | T-016–T-022 | Optimistic counter rollback | [ ] |
 | 7: Infrastructure | T-023–T-027 | Secrets management | [ ] |
 | 8: Ops | T-028–T-030 | Backup reliability | [ ] |
